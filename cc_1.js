@@ -14,3 +14,9 @@ var isAvailable = true
 console.log("ProductName", productName, "Type of", typeof productName)
 console.log("ProductPrice", productPrice, "Type of", typeof productPrice)
 console.log("Is Available", isAvailable, "Type of", typeof isAvailable)
+
+let accountBalance = 50000
+let NewaccountBalance = accountBalance + 300
+
+console.log("AccountBalance", accountBalance, "Type of", typeof accountBalance)
+console.log("After deposit: $" + NewaccountBalance)
