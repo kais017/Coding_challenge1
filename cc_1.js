@@ -20,3 +20,8 @@ let NewaccountBalance = accountBalance + 300
 
 console.log("AccountBalance", accountBalance, "Type of", typeof accountBalance)
 console.log("After deposit: $" + NewaccountBalance)
+
+let customerName = "Batman"
+let welcomeMessage = "Hey there, " + customerName + "! Welcome to Gotham City!"
+console.log(welcomeMessage)
+
