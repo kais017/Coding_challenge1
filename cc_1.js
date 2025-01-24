@@ -25,3 +25,10 @@ let customerName = "Batman"
 let welcomeMessage = "Hey there, " + customerName + "! Welcome to Gotham City!"
 console.log(welcomeMessage)
 
+let isLoggedIn = true
+let age = 100
+let isMember = true
+if (age >= 100 && isMember)
+    console.log("You are a member! Access Granted.")
+else 
+console.log("You are not a member. Access Denied.")
